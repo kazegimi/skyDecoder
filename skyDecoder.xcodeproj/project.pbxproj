@@ -437,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WD5CMA9WF;
 				INFOPLIST_FILE = skyDecoder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = skyElements.skyDecoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WD5CMA9WF;
 				INFOPLIST_FILE = skyDecoder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = skyElements.skyDecoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
