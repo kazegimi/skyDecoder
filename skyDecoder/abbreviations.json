@@ -1,0 +1,27 @@
+ [
+  {
+  "abbreviation":"AAA",
+  "decoded_text":"Amended meteorological message",
+  "supplement":""
+  },
+  {
+  "abbreviation":"A/A",
+  "decoded_text":"Air-to-air",
+  "supplement":"This is a test supplement."
+  },
+  {
+  "abbreviation":"AAD",
+  "decoded_text":"Assigned altitude deviation",
+  "supplement":""
+  },
+  {
+  "abbreviation":"AAIM",
+  "decoded_text":"Aircraft autonomous integrity monitoring",
+  "supplement":""
+  },
+  {
+  "abbreviation":"BARO-VNAV",
+  "decoded_text":"Barometric vertical navigation",
+  "supplement":""
+  }
+]

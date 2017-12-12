@@ -16,6 +16,8 @@
 		44140C3E1FDCFDBC00CB3EB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44140C3D1FDCFDBC00CB3EB5 /* main.m */; };
 		44140C481FDCFDBD00CB3EB5 /* skyDecoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44140C471FDCFDBD00CB3EB5 /* skyDecoderTests.m */; };
 		44140C531FDCFDBD00CB3EB5 /* skyDecoderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44140C521FDCFDBD00CB3EB5 /* skyDecoderUITests.m */; };
+		44140C621FDE4C5200CB3EB5 /* abbreviations.json in Resources */ = {isa = PBXBuildFile; fileRef = 44140C611FDE4C5200CB3EB5 /* abbreviations.json */; };
+		44140C651FDE4E7800CB3EB5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44140C641FDE4E7800CB3EB5 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		44140C4E1FDCFDBD00CB3EB5 /* skyDecoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skyDecoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44140C521FDCFDBD00CB3EB5 /* skyDecoderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skyDecoderUITests.m; sourceTree = "<group>"; };
 		44140C541FDCFDBD00CB3EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44140C611FDE4C5200CB3EB5 /* abbreviations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = abbreviations.json; sourceTree = "<group>"; };
+		44140C631FDE4E7800CB3EB5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		44140C641FDE4E7800CB3EB5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,14 +110,17 @@
 			children = (
 				44140C2B1FDCFDBC00CB3EB5 /* AppDelegate.h */,
 				44140C2C1FDCFDBC00CB3EB5 /* AppDelegate.m */,
+				44140C311FDCFDBC00CB3EB5 /* Main.storyboard */,
 				44140C2E1FDCFDBC00CB3EB5 /* ViewController.h */,
 				44140C2F1FDCFDBC00CB3EB5 /* ViewController.m */,
-				44140C311FDCFDBC00CB3EB5 /* Main.storyboard */,
+				44140C631FDE4E7800CB3EB5 /* DetailViewController.h */,
+				44140C641FDE4E7800CB3EB5 /* DetailViewController.m */,
 				44140C371FDCFDBC00CB3EB5 /* Assets.xcassets */,
 				44140C391FDCFDBC00CB3EB5 /* LaunchScreen.storyboard */,
 				44140C3C1FDCFDBC00CB3EB5 /* Info.plist */,
 				44140C3D1FDCFDBC00CB3EB5 /* main.m */,
 				44140C341FDCFDBC00CB3EB5 /* skyDecoder.xcdatamodeld */,
+				44140C611FDE4C5200CB3EB5 /* abbreviations.json */,
 			);
 			path = skyDecoder;
 			sourceTree = "<group>";
@@ -244,6 +252,7 @@
 				44140C3B1FDCFDBC00CB3EB5 /* LaunchScreen.storyboard in Resources */,
 				44140C381FDCFDBC00CB3EB5 /* Assets.xcassets in Resources */,
 				44140C331FDCFDBC00CB3EB5 /* Main.storyboard in Resources */,
+				44140C621FDE4C5200CB3EB5 /* abbreviations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44140C651FDE4E7800CB3EB5 /* DetailViewController.m in Sources */,
 				44140C301FDCFDBC00CB3EB5 /* ViewController.m in Sources */,
 				44140C361FDCFDBC00CB3EB5 /* skyDecoder.xcdatamodeld in Sources */,
 				44140C3E1FDCFDBC00CB3EB5 /* main.m in Sources */,
@@ -437,7 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WD5CMA9WF;
 				INFOPLIST_FILE = skyDecoder/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = skyElements.skyDecoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,7 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WD5CMA9WF;
 				INFOPLIST_FILE = skyDecoder/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = skyElements.skyDecoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
